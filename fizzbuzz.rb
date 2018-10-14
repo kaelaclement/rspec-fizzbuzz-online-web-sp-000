@@ -3,9 +3,9 @@
 def fizzbuzz(x)
   if x % 3 == 0
     "Fizz"
-  elseif x % 5 == 0
+  elsif x % 5 == 0
     "Buzz"
-  elseif x % 15 == 0
+  elsif x % 15 == 0
     "FizzBuzz"
   end
 end
